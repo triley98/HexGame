@@ -15,6 +15,8 @@
 .hex.moveable::after{width:clamp(6px,1vw,15px);height:clamp(6px,1vw,15px);font-size:clamp(6px,.8vw,11px)}
 @media(max-width:760px){.hex{width:clamp(8px,calc(2.5vw - .6px),25px)}.hexrow:nth-child(even){transform:translateX(clamp(4px,calc(1.25vw - .3px),12.5px))}}
 .help-panel .cardbtn{display:block;width:100%;margin:9px 0}
+.hex.enemy-move-range{background:#f0ae45!important;box-shadow:inset 0 0 0 2px #a96712;z-index:2}
+.hex.enemy-combat-range{background:#df625d!important;box-shadow:inset 0 0 0 2px #9b292e;z-index:3}
 
 .board{align-items:center}
 .hex.inrange{background:#e8cc83;filter:drop-shadow(0 0 3px #a77b27);z-index:1}
