@@ -19,3 +19,4 @@
 .board{align-items:center}
 .hex.inrange{background:#e8cc83;filter:drop-shadow(0 0 3px #a77b27);z-index:1}
 .hex.moveable.inrange{background:#a8d3b2}
+.room-code{margin:10px 0 4px;font:11px "DM Mono",monospace;letter-spacing:.04em;color:var(--muted)}.room-code b{color:var(--ink);letter-spacing:.12em}
